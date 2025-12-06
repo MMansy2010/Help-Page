@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left : 16px;
+    padding-right: 16px;
+}
+#left h3, #right button {
+    display: inline;
+    margin: 10px;
+}
+
+#submitRequest{
+    background-color: #2a2a2a; /* Green */
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+#signIn{
+    background-color: #2544f3; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+#searchSection{
+    text-align: center;
+    margin-top: 0;
+    font-family: Arial, sans-serif;
+    padding: 50px ;
+    margin: 0;
+    background-color: #dadbf1;
+}
+#searchBox{
+    margin: 20px 0;
+    width: 50%;
+    font-size: 14px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 5px 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+#searchBar {
+    width: 100%;
+    font-size: 16px;
+    border:none;
+    outline: none;
+    background-color: transparent;
+}
+
+#searchButton {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 0;
+}
+.container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+}
+.card {
+    padding: 10px;
+    margin: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    width: 45%;
+    height: 150px;
+    align-items: center;
+}
+.card p ,.card h2, .card a{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+}
+.card img {
+    justify-content: left;
+}
+
+a{
+    font-family: 'Courier New', Courier, monospace;
+    color: dodgerblue;
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-family: "comfortaa";
+    color: white;
+    height: 275px;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding: 25px;
+}
+
+footer p {
+    padding: 3px;
+}
+
+#fifth{
+    display: flex;
+    flex-direction: column;   /* Stack items vertically */
+    justify-content: flex-end;
+    padding-bottom: 20px;
+}
